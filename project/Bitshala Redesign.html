@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Bitshala — A Pathshala for Bitcoin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" />
+<link rel="stylesheet" href="styles.css" />
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body class="paper">
+
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="assets/bitshala-logo.png" alt="Bitshala" />
+      <span>BITSHALA</span>
+    </a>
+    <div class="nav-links">
+      <a href="#what">What</a>
+      <a href="#tree">Programs</a>
+      <a href="#journey">Journey</a>
+      <a href="#wall">Voices</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+    <a href="#" class="nav-cta">Join the Discord →</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero ink-bg torn-bottom dark-tear">
+  <div class="vertical-text">EST · BENGALURU · 2024 · BITSHALA · A PATHSHALA FOR BITCOIN</div>
+  <div class="wrap hero-grid">
+    <div class="hero-eyebrow eyebrow">
+      <span class="dot"></span>
+      <span>Issue Nº 01 — A Field Guide to Bitcoin in India</span>
+    </div>
+    <h1 class="hero-mega">
+      A&nbsp;Pathshala<br />
+      <span class="of">of</span>&nbsp;<span class="bitcoin">Bitcoin.</span>
+    </h1>
+
+    <div class="hero-meta">
+      <p class="hero-blurb">
+        We are a <em>grassroots education collective</em> from India,
+        teaching the curious and the code-comfortable how to actually
+        contribute to Bitcoin FOSS. No tokens, no hype — just open
+        source, open rooms, open minds.
+      </p>
+      <div class="hero-actions">
+        <a href="#" class="btn btn-primary">Join our Discord →</a>
+        <a href="#tree" class="btn btn-ghost">See what we do ↓</a>
+      </div>
+    </div>
+
+    <!-- "taped" stamps -->
+    <div class="hero-stamp s1" data-caption="our reading club, 2025" style="text-align: justify; margin: 89px -6px 0px 0px">
+      <div class="tape" style="top:-12px;left:30%;width:80px;transform:rotate(-8deg)"></div>
+      <div class="img">[ photo: reading club ]</div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>OPEN SOURCE</span><i class="star"></i>
+    <span>OPEN ROOMS</span><i class="star"></i>
+    <span>HRF</span><i class="star"></i>
+    <span>SPIRAL</span><i class="star"></i>
+    <span>OPENSATS</span><i class="star"></i>
+    <span>BTRUST</span><i class="star"></i>
+    <span>OPEN SOURCE</span><i class="star"></i>
+    <span>OPEN ROOMS</span><i class="star"></i>
+    <span>HRF</span><i class="star"></i>
+    <span>SPIRAL</span><i class="star"></i>
+    <span>OPENSATS</span><i class="star"></i>
+    <span>BTRUST</span><i class="star"></i>
+  </div>
+</div>
+<div class="marquee marquee-reverse">
+  <div class="marquee-track">
+    <span>CHAINCODE</span><i class="star"></i>
+    <span>SUMMER OF BITCOIN</span><i class="star"></i>
+    <span>FEDIMINT</span><i class="star"></i>
+    <span>LDK</span><i class="star"></i>
+    <span>BDK</span><i class="star"></i>
+    <span>CHAINCODE</span><i class="star"></i>
+    <span>SUMMER OF BITCOIN</span><i class="star"></i>
+    <span>FEDIMINT</span><i class="star"></i>
+    <span>LDK</span><i class="star"></i>
+    <span>BDK</span><i class="star"></i>
+  </div>
+</div>
+
+<!-- ============ WHAT IS BITSHALA + PICK YOUR PATH ============ -->
+<section class="what-section paper" id="what">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-num">01</div>
+      <h2 class="section-q">So, what actually <i>is</i> Bitshala? <br/>and where do <span class="highlight">you</span> fit in?</h2>
+    </div>
+
+    <p style="max-width:780px;font-size:18px;line-height:1.55;margin-bottom:50px">
+      Bitshala is a collective — clubs, cohorts, a paid fellowship — built
+      around helping people contribute to Bitcoin FOSS. Whether you've
+      never opened a terminal or you ship code for a living, there's a
+      door cut for you. <em>Pick yours.</em>
+    </p>
+
+    <div class="path-split">
+      <a href="#tree" class="path-card">
+        <div class="label">Path A — the curious</div>
+        <h3>I'm new to Bitcoin. Where do I even start?</h3>
+        <p class="desc">Start with our Reading Club and Latest in Bitcoin Tech sessions. Friendly rooms, no jargon-shaming, real humans.</p>
+        <span class="arrow">Take the slow path
+          <svg width="20" height="12" viewBox="0 0 20 12" fill="none"><path d="M0 6h18m0 0L13 1m5 5l-5 5" stroke="currentColor" stroke-width="2"/></svg>
+        </span>
+      </a>
+      <a href="#tree" class="path-card orange">
+        <div class="label">Path B — the builder</div>
+        <h3>I write code. Take me to the protocol.</h3>
+        <p class="desc">Jump into the PR Review Club, BITDEVS, Study Cohorts and the paid Fellowship. Ship to bitcoind, LDK, BDK, Fedimint.</p>
+        <span class="arrow">Take the fast path
+          <svg width="20" height="12" viewBox="0 0 20 12" fill="none"><path d="M0 6h18m0 0L13 1m5 5l-5 5" stroke="currentColor" stroke-width="2"/></svg>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BANYAN TREE ============ -->
+<section class="tree-section" id="tree">
+  <div class="vertical-text">PROGRAMS · CLUBS · COHORTS · FELLOWSHIPS · GRANTS</div>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-num">02</div>
+      <h2 class="section-q">Six rooms, one <span class="highlight">collective</span>. <br/>Find the one that fits you.</h2>
+    </div>
+
+    <div class="programs-stage" data-layout="grid">
+
+      <div class="program-tile" data-id="reading">
+        <div class="tape orange"></div>
+        <span class="badge">CLUB · WEEKLY</span>
+        <h4>Reading Club</h4>
+        <p>We read Bitcoin papers, BIPs and code together. Show up Saturdays.</p>
+        <div class="meta">→ Next: Sat 9 May</div>
+      </div>
+      <div class="program-tile" data-id="latest">
+        <div class="tape"></div>
+        <span class="badge orange">CLUB · WEEKLY</span>
+        <h4>Latest in Bitcoin Tech</h4>
+        <p>What just shipped, what's brewing in the mempool of ideas.</p>
+        <div class="meta">→ Every Thursday</div>
+      </div>
+      <div class="program-tile" data-id="prreview">
+        <div class="tape"></div>
+        <span class="badge">CLUB · BI-WEEKLY</span>
+        <h4>PR Review Club</h4>
+        <p>Read open PRs against bitcoind. Argue. Learn. Sometimes review them yourself.</p>
+        <div class="meta">→ Next: Wed 13 May</div>
+      </div>
+      <div class="program-tile" data-id="bitdevs">
+        <div class="tape orange"></div>
+        <span class="badge orange">MEETUP · MONTHLY</span>
+        <h4>Bengaluru BITDEVS</h4>
+        <p>India's longest-running Bitcoin dev meetup. Real room, real people.</p>
+        <div class="meta">→ First Sat of every month</div>
+      </div>
+      <div class="program-tile" data-id="cohorts">
+        <div class="tape"></div>
+        <span class="badge">COHORT · 12 WEEKS</span>
+        <h4>Study Cohorts</h4>
+        <p>Structured deep-dives — Mining, Lightning, Cryptography. Small groups.</p>
+        <div class="meta">→ Next intake: Aug</div>
+      </div>
+      <div class="program-tile" data-id="fellowship">
+        <div class="tape orange"></div>
+        <span class="badge orange">FELLOWSHIP · PAID</span>
+        <h4>Bitshala Fellowship</h4>
+        <p>3-month paid residency to ship to Bitcoin FOSS. Mentored by maintainers.</p>
+        <div class="meta">→ Apply for cohort 03</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ JOURNEY / STAIRS ============ -->
+<section class="stairs-section" id="journey">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:20px">
+      <div class="section-num">03</div>
+      <h2 class="section-q">How can you start your <i>journey</i>? <br/>One step at a time, like this.</h2>
+    </div>
+
+    <div class="stairs">
+      <div class="stair">
+        <div class="step-num">01</div>
+        <h4>Show up at an event</h4>
+        <p>Walk into a meetup. Lurk in Discord. No commitment.</p>
+        <div class="step-tag"><span>EVENT</span><span>↗</span></div>
+      </div>
+      <div class="stair">
+        <div class="step-num">02</div>
+        <h4>Join a Club</h4>
+        <p>Reading Club, BITDEVS, PR Review — pick one, show up weekly.</p>
+        <div class="step-tag"><span>CLUB</span><span>↗</span></div>
+      </div>
+      <div class="stair">
+        <div class="step-num">03</div>
+        <h4>Apply to a Cohort</h4>
+        <p>12 weeks, focused topic, small group, real work.</p>
+        <div class="step-tag"><span>COHORT</span><span>↗</span></div>
+      </div>
+      <div class="stair">
+        <div class="step-num">04</div>
+        <h4>Earn a Fellowship</h4>
+        <p>Paid 3-month residency. Ship code. Mentored.</p>
+        <div class="step-tag"><span>FELLOWSHIP</span><span>↗</span></div>
+      </div>
+      <div class="stair">
+        <div class="step-num">05</div>
+        <h4>Win a Grant</h4>
+        <p>Independent funding to keep contributing to Bitcoin FOSS.</p>
+        <div class="step-tag"><span>GRANT</span><span>↗</span></div>
+      </div>
+    </div>
+
+    <div class="events-strip">
+      <div class="events-label">
+        <small>↳ Or just show up</small>
+        Upcoming Events
+      </div>
+      <div class="events-list">
+        <div class="event-item">
+          <span class="date">Sat 09 May · 11:00 IST</span>
+          <span class="title">Reading Club: Lightning Network paper</span>
+          <span class="where">Discord · Voice</span>
+        </div>
+        <div class="event-item">
+          <span class="date">Wed 13 May · 19:30 IST</span>
+          <span class="title">PR Review Club #042</span>
+          <span class="where">Discord · Voice</span>
+        </div>
+        <div class="event-item">
+          <span class="date">Sat 24 May · 16:00 IST</span>
+          <span class="title">BITDEVS Bengaluru #38</span>
+          <span class="where">Bitspace · BLR</span>
+        </div>
+        <div class="event-item">
+          <span class="date">Thu 29 May · 19:30 IST</span>
+          <span class="title">Latest in Bitcoin Tech</span>
+          <span class="where">Discord · Voice</span>
+        </div>
+      </div>
+      <a href="#" class="events-cta">All events →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WALL OF LOVE / PINBOARD ============ -->
+<section class="wall-section" id="wall">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-num">04</div>
+      <h2 class="section-q">People who walked this path. <br/>The <span class="highlight">wall of love</span>.</h2>
+    </div>
+
+    <div class="pinboard">
+      <article class="pin-card" style="left:0;top:0;width:300px;transform:rotate(-3deg)">
+        <div class="tape" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">Honestly, I was able to handle the imposter syndrome with concepts I only knew at a surface level. <em>I was also able to get myself up-to-date</em> with many recent developments.</p>
+        <div class="meta">
+          <div class="avatar">M</div>
+          <div class="who"><span class="name">Mridul</span><span class="role">PR Review Club</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card" style="left:340px;top:40px;width:280px;transform:rotate(2deg)">
+        <div class="tape orange" style="left:25%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">Participating in the Programming Bitcoin cohort was one of the most transformative experiences for me. The sessions provided <em>invaluable clarity</em> on key concepts.</p>
+        <div class="meta">
+          <div class="avatar">A</div>
+          <div class="who"><span class="name">Ayushi</span><span class="role">Programming Bitcoin Cohort</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card dark" style="left:660px;top:0;width:300px;transform:rotate(-1deg)">
+        <div class="tape" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">I came across Bitshala while working on an SOB assignment and decided to join their Bitcoin Protocol Development cohort. <em>It's been such an amazing experience.</em></p>
+        <div class="meta">
+          <div class="avatar" style="background:var(--orange)">N</div>
+          <div class="who"><span class="name">Nayan</span><span class="role">Bitcoin Protocol Cohort</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card" style="left:1000px;top:60px;width:260px;transform:rotate(3deg)">
+        <div class="tape dark" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">Anyone exploring their hours of their evenings, in a sense, can gain valuable knowledge and significance about technical extensions.</p>
+        <div class="meta">
+          <div class="avatar">R</div>
+          <div class="who"><span class="name">Rohan</span><span class="role">Club Activities</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card orange" style="left:60px;top:300px;width:300px;transform:rotate(2deg)">
+        <div class="tape" style="left:30%;background:linear-gradient(180deg,rgba(244,237,224,0.7),rgba(244,237,224,0.4))"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">If you're a Bitcoin user, you'd love to have a 'how nice' short over all things Bitcoin. <em>Bitshala fixes this!</em></p>
+        <div class="meta">
+          <div class="avatar" style="background:var(--ink)">S</div>
+          <div class="who"><span class="name">Shreya</span><span class="role">Discord member</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card" style="left:400px;top:340px;width:300px;transform:rotate(-2deg)">
+        <div class="tape" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">Before the cohort, I was just a person with some idea of Bitcoin transactions, mining etc. <em>'Cool technology', I thought.</em> I had no idea of what the code looks like, who are the people working behind this.</p>
+        <div class="meta">
+          <div class="avatar">P</div>
+          <div class="who"><span class="name">Pranav</span><span class="role">Bitcoin Protocol Cohort</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card" style="left:740px;top:380px;width:280px;transform:rotate(1deg)">
+        <div class="tape orange" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">I can assure you that anyone who is able to stick through the entire Mooring Bitcoin cohort will gain a <em>better understanding</em> of Bitcoin than 99% of people.</p>
+        <div class="meta">
+          <div class="avatar" style="background:var(--orange)">A</div>
+          <div class="who"><span class="name">Aditya</span><span class="role">Cohort Alumni</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card dark" style="left:1060px;top:340px;width:240px;transform:rotate(-3deg)">
+        <div class="tape" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">And the TAs were amazing! Going the extra mile and never letting a problem go unsolved.</p>
+        <div class="meta">
+          <div class="avatar" style="background:var(--orange)">K</div>
+          <div class="who"><span class="name">Kavya</span><span class="role">Bitcoin Protocol Cohort</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card" style="left:160px;top:680px;width:300px;transform:rotate(-1deg)">
+        <div class="tape" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">The patience and practical examples — I think they are very well designed to make you steeply reflect on the residual track. <em>It helps me understand knowledge.</em></p>
+        <div class="meta">
+          <div class="avatar">D</div>
+          <div class="who"><span class="name">Devika</span><span class="role">Study Cohorts</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card orange" style="left:540px;top:740px;width:280px;transform:rotate(3deg)">
+        <div class="tape" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">The community makes learning fun (and effective) for me. <em>It feels like home.</em></p>
+        <div class="meta">
+          <div class="avatar" style="background:var(--ink)">V</div>
+          <div class="who"><span class="name">Vivek</span><span class="role">Discord regular</span></div>
+        </div>
+      </article>
+
+      <article class="pin-card" style="left:880px;top:720px;width:280px;transform:rotate(-2deg)">
+        <div class="tape dark" style="left:30%"></div>
+        <div class="quote-mark">"</div>
+        <p class="quote">If I could do it, you can too — that's what we're really all trying to say. <em>:)</em></p>
+        <div class="meta">
+          <div class="avatar">P</div>
+          <div class="who"><span class="name">Priya</span><span class="role">Fellow, Cohort 02</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section class="gallery-section" id="gallery">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="section-num">05</div>
+      <h2 class="section-q">Our gallery — <br/>real rooms, real people, <i>real Bitcoin</i>.</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="photo p1"><div class="stripes"></div><div class="label">[ BITDEVS #36 — Bengaluru ]</div></div>
+      <div class="photo p2"><div class="stripes"></div><div class="label">[ Cohort hackathon ]</div></div>
+      <div class="photo p3"><div class="stripes"></div><div class="label">[ Bitspace, late night ]</div></div>
+      <div class="photo p4"><div class="stripes"></div><div class="label">[ Whiteboard session ]</div></div>
+      <div class="photo p5"><div class="stripes"></div><div class="label">[ Reading Club ]</div></div>
+      <div class="photo p6"><div class="stripes"></div><div class="label">[ Fellowship demo day ]</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="cta-section torn-top from-orange">
+  <div class="wrap">
+    <h2 class="cta-mega">Take the<br/><span class="stroke">first</span> step.</h2>
+    <p class="cta-sub">Whichever path you took to get here — the curious one or the builder one — there's a door open for you tonight.</p>
+    <div class="cta-buttons">
+      <a href="#" class="btn btn-primary">I'm in! Take me to Discord →</a>
+      <a href="#" class="btn btn-ghost">Read the manifesto</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="mega-foot">BIT<span class="stroke">SHALA</span></div>
+        <p style="opacity:.7;max-width:340px;font-size:14px">A pathshala for Bitcoin. Run by humans, in Bengaluru and on the internet, since 2024.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Programs</h5>
+        <ul>
+          <li><a href="#">Reading Club</a></li>
+          <li><a href="#">PR Review Club</a></li>
+          <li><a href="#">Latest in Bitcoin Tech</a></li>
+          <li><a href="#">Study Cohorts</a></li>
+          <li><a href="#">Fellowship</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Find us</h5>
+        <ul>
+          <li><a href="#">Discord</a></li>
+          <li><a href="#">Twitter / X</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Newsletter</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Bitspace</h5>
+        <ul>
+          <li><a href="#">Visit Bengaluru hub</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Get directions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Bitshala Collective · Built with sats &amp; chai</span>
+      <span>v.0.2 · zine edition</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ TWEAKS ============ -->
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tweaks.jsx"></script>
+
+<script>
+// rail nav buttons
+document.addEventListener('DOMContentLoaded', () => {
+  // gentle entrance for tape pieces
+  document.querySelectorAll('.pin-card, .tree-panel').forEach(el => {
+    el.addEventListener('mouseenter', () => {
+      const tape = el.querySelector('.tape');
+      if (tape) tape.style.transition = 'transform .2s ease';
+    });
+  });
+});
+</script>
+
+</body>
+</html>
